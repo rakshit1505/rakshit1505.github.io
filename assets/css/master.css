@@ -265,6 +265,16 @@ section {
   position: relative;
   padding: 60px 0;
 }
+@supports (-webkit-touch-callout: none) {
+  .ps-heroImg-box ul li span {
+    color: white;
+  }
+}
+.ps-heroImg-box ul li span {
+  color: white;
+  -webkit-text-fill-color: white;
+  -webkit-user-select: none;
+}
 .ps-heroImg-box ul li {
   color: var(--ps-white-color);
 }
@@ -308,7 +318,7 @@ section {
   }
   ul {
     li {
-      color: var(--ps-white-color) !important;
+      color: var(--ps-white-color);
       font-size: 16px;
       display: flex;
       align-items: center;
@@ -320,7 +330,7 @@ section {
         width: 100%;
       }
       span {
-        color: var(--ps-white-color) !important;
+        color: var(--ps-white-color);
       }
     }
   }
