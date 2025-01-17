@@ -265,6 +265,12 @@ section {
   position: relative;
   padding: 60px 0;
 }
+.ps-heroImg-box ul li {
+  color: var(--ps-white-color);
+}
+.ps-heroImg-box ul li span {
+  color: var(--ps-white-color);
+}
 .ps-heroImg-box {
   text-align: center;
   @media screen and (max-width: 767px) {
@@ -324,6 +330,7 @@ section {
     border-radius: 10px;
   }
 }
+
 .ps-vector-line {
   position: absolute;
   top: 0;
