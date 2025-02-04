@@ -110,7 +110,19 @@ section {
 .ps-main-wrapper-header .ps-main-nav .ps-menu > ul > li {
   margin-right: 25px;
 }
-
+.voting_date_add {
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0px 0 30px;
+    gap: 10px;
+    li {
+      color: var(--ps-white-color);
+      font-size: 21px;
+    }
+  }
+}
 .ps-main-nav .offcanvas-header {
   justify-content: end;
 }
